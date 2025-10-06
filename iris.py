@@ -7,6 +7,7 @@ modelo = joblib.load('modelo_iris.joblib')
 
 # Título
 st.title("Clasificador de Especies Iris 🌸")
+st.info("Jesus Alvarado")
 st.write("Ingrese los datos manualmente o cargue un archivo CSV para predecir la especie de Iris.")
 
 # Sidebar con opciones
