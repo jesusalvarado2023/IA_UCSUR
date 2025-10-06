@@ -33,7 +33,7 @@ elif opcion == 'CSV':
     archivo = st.file_uploader("Selecciona un archivo CSV", type="csv")
     
     if archivo is not None:
-        datos = pd.read_csv(archivo, "irirsnuevo.csv")
+        datos = pd.read_csv(archivo)
         st.write("Datos cargados:")
         st.dataframe(datos)
     else:
